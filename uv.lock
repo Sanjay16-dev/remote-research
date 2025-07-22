@@ -211,7 +211,7 @@ wheels = [
 
 [[package]]
 name = "mcp"
-version = "0.1.12"
+version = "1.12.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
