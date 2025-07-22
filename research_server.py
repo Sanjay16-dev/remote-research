@@ -187,7 +187,7 @@ def generate_search_prompt(topic: str, num_papers: int = 5) -> str:
     4. Organize your findings in a clear, structured format with headings and bullet points for easy readability.
 
     Please present both detailed information about each paper and a high-level synthesis of the research landscape in {topic}."""
-app = mcp.app
+# app = mcp.app
 if __name__ == "__main__":
     # Initialize and run the server
     mcp.run(transport='sse')
